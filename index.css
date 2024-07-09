@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    height: 100vh;
+}
+ul {
+    height: 50px;
+    background-color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 3% 10%;
+}
+ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+ul li:first-child {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+.hero {
+    background-color: #1F2937;
+    padding: 2% 10%;
+    display: flex;
+    gap: 10px;
+}
+.content {
+    width: 45%;
+}
+.content h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+.content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button {
+    background-color: #3882F6;
+    border: none;
+    padding: 1%;
+    border-radius: 3px;
+    color: #E5E7EB;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.hero-img {
+    width: 55%;
+    height: 250px;
+}
+.hero-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-container {
+    padding: 2% 0;
+    text-align: center;
+}
+.main-container h3 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.main-container-content {
+    padding: 0 10% 8% 10%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.quote-container {
+    padding: 5% 0;
+    background-color: #E5E7EB;
+    width: 100%;
+}
+.quote {
+    width: 80%;
+    margin: auto;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+.quote h4 {
+    align-self: flex-end;
+}
+.other-content {
+    margin: 3% 15%;
+    padding: 2% 5%;
+    background-color: #1764e0;
+    color: #f2f4f8;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 3px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
+.text h4 {
+    align-self: flex-start;
+}
+.other-content button {
+    padding: 0;
+    margin-left: auto;
+    width: 12%;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.footer {
+    background-color: #1F2937;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+}
